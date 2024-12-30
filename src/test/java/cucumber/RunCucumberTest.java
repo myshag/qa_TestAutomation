@@ -5,7 +5,12 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty", "html:target/cucumber" , "json:target/cucumber.json",})
+@CucumberOptions(
+        features = "src/test/resources/cucumber",
+        glue = "cucumber.StepDefinition",
+        plugin = {"pretty", "html:target/cucumber-reports"},
+        monochrome = true
+)
 public class RunCucumberTest {
 
 }

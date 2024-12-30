@@ -15,12 +15,7 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.browserstack/browserstack-local-java -->
-        <dependency>
-            <groupId>com.browserstack</groupId>
-            <artifactId>browserstack-local-java</artifactId>
-            <version>1.0.6</version>
-        </dependency>
+
 
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -39,26 +34,26 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+
         </dependency>
 
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>3.4.0</version>
+
         </dependency>
         
 		<dependency>
 			<groupId>com.zebrunner</groupId>
 			<artifactId>agent-junit</artifactId>
-			<version>1.2.0</version>
+
 			<scope>test</scope>
 		</dependency>
 		
